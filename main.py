@@ -5,9 +5,10 @@ def main():
     perc_males = num_males / float(total) * 100
     perc_females = num_females / float(total) * 100
     
-    print('There are ',total,'Students:')
-    print('Percentage of Males: ', format(perc_males, '.2f',))
-    print('Percentage of Females: ', format(perc_females, '.2f'))
+    print('The total number of students: \t',total,)
+    print('The number of males and females: ',num_males,num_females)
+    print('The percentage of males: ', format(perc_males, '.2f') + '%', format(perc_females, '.2f') + '%')
+
 
 
 if __name__ == '__main__':
